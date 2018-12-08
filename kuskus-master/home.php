@@ -100,7 +100,7 @@
 					<div class="col-md-7">
 						<div class="form-group">
 							<div class="input-group">
-								<textarea name="caption" id="caption" class="form-control" rows="4" placeholder="What's on your mind, <?php echo $user['name']; ?>?" required></textarea>
+								<textarea name="caption" id="caption" maxlength="240" class="form-control" rows="4" placeholder="What's on your mind, <?php echo $user['name']; ?>? max: 240" required></textarea>
 								<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 							</div>
 						</div>

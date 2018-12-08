@@ -103,10 +103,7 @@
 								<input type=\"submit\" name=\"togFollow\" id=\"togFollow\" value=\"Unfollow\" class=\"btn wow tada btn-embossed btn-danger\">
 							</form>";
 					}
-					else
-						echo
-						"<p><a href=\"edit.php\" class=\"btn wow tada btn-embossed btn-warning\">Edit Profile</a>
-						</p>";
+					
 				?>
 			 </div>
 			</div>
@@ -125,16 +122,16 @@
 					$echo =
 						"<div class=\"row\" style=\"margin-top:20px;\">			
 							<div class=\"col-sm-2 wow bounceIn text-right\">
-								<a href=\"profile?id=$user[id]\">
+								<a href=\"profile.php?id=$user[id]\">
 									<img class=\"img-circle\" src=\"$user[avatar]\" style=\"width: 128px; length:128px;\">
 								</a>
 							</div>
 							
 							<div class=\"col-sm-8 wow bounceIn text-left\">
-								<a href=\"profile?id=$user[id]\">
+								<a href=\"profile.php?id=$user[id]\">
 									<h3 style=\"margin-top:0;\">$user[name]</h3>
 								</a>
-								<a href=\"post?id=$cpost[id]\">
+								<a href=\"post.php?id=$cpost[id]\">
 									<h6 style=\"margin-top:0;\">Posted on $cpost[upload]<h6>
 									<p class=\"lead\" style=\"word-wrap:break-word;\">$cpost[caption]</p>
 								</a>
