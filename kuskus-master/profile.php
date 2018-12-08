@@ -53,7 +53,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/kuskus-master/home.php">Kuskus</a>
+				<a class="navbar-brand" href="home.php">Kuskus</a>
 			</div>
 			<div class="col-sm-3 col-md-3" style="margin-top:4px;">
 				<form class="navbar-form" role="search" method="get" action="search.php">
@@ -68,7 +68,7 @@
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="menuItem"><a href="/kuskus-master/home.php">Home</a></li>
+					<li class="menuItem"><a href="home.php">Home</a></li>
 					<li class="menuItem"><a href="profile.php?id=<?php echo $_SESSION['id_user'] ?>">Profile</a></li>
 					<!-- <li class="menuItem"><a href="notification.php">Notification</a></li> -->
 					<!-- <li class="menuItem"><a href="/?logout=1">Log Out</a></li> -->

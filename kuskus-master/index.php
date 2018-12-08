@@ -144,7 +144,7 @@
 					<div class="cc-selector">
 						<input id="male" type="radio" name="gender" value="M" required />
 						<label class="drinkcard-cc male" for="male"></label>
-						<input id="female" type="radio" name="gender" value="F" />
+						<input id="female" type="radio" name="gender" value="F" required/>
 						<label class="drinkcard-cc female" for="female"></label>
 					</div>
 					

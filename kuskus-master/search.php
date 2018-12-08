@@ -56,7 +56,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/kuskus-master/home.php">Kuskus</a>
+				<a class="navbar-brand" href="home.php">Kuskus</a>
 			</div>
 			<div class="col-sm-3 col-md-3" style="margin-top:4px;">
 				<form class="navbar-form" role="search" method="get" action="search.php">

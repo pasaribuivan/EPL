@@ -32,13 +32,12 @@
 		$result = $db->query("CALL add_user('$_POST[name]', '$_POST[email]', '$_POST[pass]', '$_POST[gender]');");
 		$db->close();
 		$row = $result->fetch_assoc();
+		$_SESSION['msg_signup'] = $row['msg'];
 		if($row['errno'] == 0){
-			unset($_SESSION['msg_signup']);
-			header('Location: /#login');
+			header('Location: #login');
 		}
 		else{
-			$_SESSION['msg_signup'] = $row['msg'];
-			header('Location: /#signup');
+			header('Location: #signup');
 		}
 	}
 	function login(){
@@ -51,17 +50,17 @@
 			unset($_SESSION['attempt']);
 			unset($_SESSION['msg_signup']);
 			$_SESSION['id_user'] = $row['id_user'];
-			header('Location: /kuskus-master/home.php');
+			header('Location: home.php');
 		}
 		else{
 			if(!isset($_SESSION['attempt'])) $_SESSION['attempt']=1;
 			else $_SESSION['attempt']++;
-			header('Location: /#login');
+			header('Location: #login');
 		}
 	}
 	function logout(){
 		session_destroy();
-		header('Location: /kuskus-master/index.php');
+		header('Location: index.php');
 	}
 	function user_info($id){
 		global $db;
