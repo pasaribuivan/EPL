@@ -7,7 +7,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+     initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
     <title>Flatfy – Free Flat and Responsive HTML5 Template</title>
 
@@ -16,36 +17,37 @@
  
     <!-- Custom Google Web Font -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100it
+    alic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet'
+     type='text/css'>
+
     <!-- Custom CSS-->
     <link href="css/general.css" rel="stylesheet">
-	
-	 <!-- Owl-Carousel -->
+
+     <!-- Owl-Carousel -->
     <link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-	
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	
-	<!-- Modernizr /-->
-	<script src="js/modernizr-2.8.3.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css"> 
+    <!-- Modernizr /-->
+    <script src="js/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body id="home">
 
-	<!-- Preloader -->
-	<div id="preloader">
-		<div id="status"></div>
-	</div>
-	
-	<!-- NavBar-->
-	<nav class="navbar-default" role="navigation">
-		<div class="container">
+    <!-- Preloader -->
+    <div id="preloader">
+    <div id="status"></div>
+    </div>
+
+    <!-- NavBar-->
+    <nav class="navbar-default" role="navigation">
+    	<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Toggle navigation</span>

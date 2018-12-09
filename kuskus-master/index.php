@@ -99,7 +99,8 @@
 					</div>
 				</div>
 				<?php
-					if(isset($_SESSION['attempt'])){
+					if(isset($_SESSION['attempt']))
+					{
 						$attempt = "<div class=\"col-md-6 col-md-offset-3 text-center white\"><p style=\"margin-top:0\">Failed Login Attempt: $_SESSION[attempt]</p> </div>";
 						echo $attempt;
 					}
@@ -151,7 +152,8 @@
 					<input type="submit" name="signup" id="signup" value="Sign Up" class="btn wow tada btn-embossed btn-primary">
 				</form>
 					<?php
-						if(isset($_SESSION['msg_signup'])){
+						if(isset($_SESSION['msg_signup']))
+						{
 							$echo =
 							"<br/><div class=\"col-md-6 col-md-offset-3 text-center wrap_title\">
 							<p class=\"lead\" style=\"margin-top:0\">$_SESSION[msg_signup]</p></div>";
